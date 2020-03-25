@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">ProjectX</string>
+    <string name="nice_to_see_you_again">Nice To See You Again !</string>
+    <string name="email">Email</string>
+    <string name="password">PassWord</string>
+    <string name="login">Login</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="you_are_not_a_member">You are not a member?</string>
+    <string name="register">Register</string>
+    <string name="we_will_send_you_a_forgot_password_link_to_your_registered_email_address_please_enter_your_registered_email_address">We will send you a forgot password link to your registered email address.Please enter your registered email address !</string>
+    <string name="your_registered_email">Your Registered Email</string>
+    <string name="send_reset_link">Send Reset Link</string>
+    <string name="create_new_board">Create New Board</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="neeraj921721_gmailcom">neeraj921721@gmailcom</string>
+    <string name="todo">TODO</string>
+    <string name="neeraj_kumar">Neeraj Kumar</string>
+    <string name="neeraj921721_gmail.com" />
+    <string name="home">Home</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

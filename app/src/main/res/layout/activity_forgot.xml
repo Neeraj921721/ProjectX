@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ForgotActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="414dp"
+        android:layout_height="200dp"
+        android:gravity="center"
+        android:lines="6"
+        android:maxLines="10"
+        android:text="@string/we_will_send_you_a_forgot_password_link_to_your_registered_email_address_please_enter_your_registered_email_address"
+        android:textAlignment="center"
+        android:textColor="#AD1457"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.279" />
+
+    <EditText
+        android:id="@+id/registeredEmail"
+        android:layout_width="289dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="272dp"
+        android:ems="10"
+        android:hint="@string/your_registered_email"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/resetbtn"
+        android:layout_width="222dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="95dp"
+        android:layout_marginBottom="168dp"
+        android:text="@string/send_reset_link"
+        android:textColor="#AD1457"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registeredEmail" />
+</androidx.constraintlayout.widget.ConstraintLayout>
